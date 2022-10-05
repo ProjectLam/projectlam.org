@@ -1,0 +1,1 @@
+Hola I'm the footer component

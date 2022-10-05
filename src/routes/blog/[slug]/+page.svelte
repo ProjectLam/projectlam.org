@@ -1,6 +1,11 @@
 <script>
     export let data;
   </script>
+
+<svelte:head>
+    <title>My blog - {data.title}</title>
+    <meta property="og:title" content={data.title} />
+  </svelte:head>
   
   <article>
     <h1>{ data.title }</h1>

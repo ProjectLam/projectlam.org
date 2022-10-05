@@ -4,9 +4,11 @@
 
     import '$lib/styles/style.scss'
     import { fade } from 'svelte/transition'
-    
+    import "fluent-svelte/theme.css";
+
     export let data
-    </script>
+
+</script>
     
     <Header />
     

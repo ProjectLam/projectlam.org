@@ -69,5 +69,8 @@
     "even",
     "numbers",
     "odd"
-  ]
+  ],
+  "frontMatter.content.autoUpdateDate": true,
+  "frontMatter.framework.startCommand": "npm run dev",
+  "frontMatter.preview.host": "http://127.0.0.1:5173"
 }

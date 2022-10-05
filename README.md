@@ -23,3 +23,11 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
+
+
+## i8N
+
+Install visual studio plugin (I8N Buddy)[https://github.com/lokalise/i18n-ally]
+
+and put a hack into package.json, until my fix is in place 
+		"svelte-i18n": "1.0.0"

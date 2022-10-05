@@ -12,14 +12,14 @@ const config = ({
       locale: 'en',
       key: '',
       loader: async () => (
-        await import('./lang/en/site.json')
+        await import('./locales/en/site.json')
       ).default,
     },
     {
       locale: 'th',
       key: '',
       loader: async () => (
-        await import('./lang/th/site.json')
+        await import('./locales/th/site.json')
       ).default,
     },
   ],

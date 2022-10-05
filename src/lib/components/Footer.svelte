@@ -34,7 +34,7 @@
             <a href="/blog">{$t('site.header.blog')}</a>
         </li>
         <li>
-          <a href="/about">About</a>
+          <a href="/about">{$t('site.header.about')}</a>
         </li>
         <li>
           <a href="/contact">Contact</a>

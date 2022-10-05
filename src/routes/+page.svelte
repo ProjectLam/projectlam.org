@@ -1,1 +1,6 @@
-<h1>Welcome to Project Lam</h1>
+<script>	
+import { t } from '$lib/translations';
+
+  </script>
+
+<h1>{$t('home.title')}</h1>

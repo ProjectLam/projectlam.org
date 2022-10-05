@@ -1,3 +1,8 @@
+<script>
+import { t,locales,locale } from '$lib/translations';
+</script>
+
+
 <style>
     header {
       padding: 1rem;
@@ -26,13 +31,20 @@
     <nav>
       <ul>
         <li>
-          <a href="/blog">Blog</a>
+          <a href="/blog">{$t('site.header.blog')}</a>
         </li>
         <li>
           <a href="/about">About</a>
         </li>
         <li>
           <a href="/contact">Contact</a>
+        </li>
+        <li>
+            <select bind:value="{$locale}">
+                {#each $locales as locale}
+                <option value="{locale}">{$t(`lang.${locale}`)}</option>
+                {/each}
+              </select>         
         </li>
       </ul>
     </nav>

@@ -1,3 +1,8 @@
+<script>
+    import { t,locales } from '$lib/translations';
+</script>
+    
+
 <style>
     footer {
       padding: 1rem;
@@ -26,7 +31,7 @@
     <nav>
       <ul>
         <li>
-          <a href="/blog">Blog</a>
+            <a href="/blog">{$t('site.header.blog')}</a>
         </li>
         <li>
           <a href="/about">About</a>

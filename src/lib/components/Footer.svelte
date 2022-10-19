@@ -3,14 +3,14 @@
     import { onMount } from 'svelte';
     import jQuery from 'jquery';
     import AOS from 'aos';
-    import { browser } from '$app/environment';
-    import {tns} from 'tiny-slider?client';
-    import '$lib/3rd/bootstrap.min.js?client';     
-    import '$lib/3rd/fontawesome.min.js?client';
+  //  import { browser } from '$app/environment';
+  //  import {tns} from 'tiny-slider?client';
 
     onMount(async () =>  {
       window.jQuery = jQuery; 
       window.AOS = AOS;
+      await import('$lib/3rd/bootstrap.min.js?client')    
+      await import('$lib/3rd/fontawesome.min.js?client')
       await import('$lib/3rd/bootstrap-select-country.min.js')
       await import('$lib/3rd/owl.carousel.min.js')
       await import('$lib/3rd/jquery.magnific-popup.js')

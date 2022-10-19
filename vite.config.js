@@ -1,11 +1,9 @@
 import { sveltekit } from '@sveltejs/kit/vite';
+import { isoImport } from 'vite-plugin-iso-import'
 
 /** @type {import('vite').UserConfig} */
 const config = {
-	plugins: [sveltekit()],
-	ssr: {
-		noExternal: ['@carbon/charts', '@popperjs/core']
-	}
+	plugins: [sveltekit(), isoImport()]
 };
 
 export default config;

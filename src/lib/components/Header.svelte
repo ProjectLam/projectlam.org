@@ -11,7 +11,7 @@ import { t,locales,locale } from '$lib/translations';
               <div class="row align-items-center header-padding">
                  <div class="col-lg-2">
                     <div class="logo">
-                       <a href="index.html"><img src="img/logo.png" alt=""> Lam</a>
+                       <a href="index.html"><img src="/img/logo.png" alt=""> Lam</a>
                     </div>
                  </div>
                  <div class="col-lg-7">
@@ -30,9 +30,9 @@ import { t,locales,locale } from '$lib/translations';
                        <!-- Flag Picker -->
                        <div id="options" class="input_box" data-input-name="country2" data-selected-country="GB"></div>
                        <div class="header-right-social">
-                          <a href="#"><img src="img/h-icon-1.png" alt=""></a>
-                          <a href="#"><img src="img/h-icon-2.png" alt=""></a>
-                          <a href="#"><img src="img/h-icon-3.png" alt=""></a>
+                          <a href="#"><img src="/img/h-icon-1.png" alt=""></a>
+                          <a href="#"><img src="/img/h-icon-2.png" alt=""></a>
+                          <a href="#"><img src="/img/h-icon-3.png" alt=""></a>
                        </div>
                     </div>
                  </div>

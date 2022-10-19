@@ -413,7 +413,7 @@ p {
 .hero-img::before {
 	position: absolute;
 	content: '';
-	background-image: url(../img/hero-bg.png);
+	background-image: url(/img/hero-bg.png);
 	width: 230px;
 	height: 710px;
 	top: -22%;

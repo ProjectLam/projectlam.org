@@ -11,19 +11,19 @@ import { t } from '$lib/translations';
      <!-- hero shape -->
      <div class="hero-shape">
         <div class="hero-shape-1">
-           <img src="img/h-shape-1.png" alt="">
+           <img src="/img/h-shape-1.png" alt="">
         </div>
         <div class="hero-shape-2">
-           <img src="img/h-shape-1.png" alt="">
+           <img src="/img/h-shape-1.png" alt="">
         </div>
         <div class="hero-shape-3">
-           <img src="img/h-shape-2.png" alt="">
+           <img src="/img/h-shape-2.png" alt="">
         </div>
         <div class="hero-shape-4">
-           <img src="img/h-shape-1.png" alt="">
+           <img src="/img/h-shape-1.png" alt="">
         </div>
         <div class="hero-shape-5">
-           <img src="img/h-shape-3.png" alt="">
+           <img src="/img/h-shape-3.png" alt="">
         </div>
      </div>
      <!-- hero shape -->
@@ -31,7 +31,7 @@ import { t } from '$lib/translations';
         <div class="row align-items-center">
            <div class="col-lg-7 order-lg-2">
               <div class="hero-img">
-                 <img class="vert-move" src="img/hero-man.png" alt="">
+                 <img class="vert-move" src="/img/hero-man.png" alt="">
               </div>
            </div>
            <div class="col-lg-5 order-lg-1">
@@ -42,7 +42,7 @@ import { t } from '$lib/translations';
                  <div class="hero-play">
                     <div class="center">
                        <div class="circle pulse rose"></div>
-                       <a class="video-popup" href="https://www.youtube.com/watch?v=u31qwQUeGuM"><span><img src="img/play-btn.png" alt=""></span> Learn more about My Profile</a>
+                       <a class="video-popup" href="https://www.youtube.com/watch?v=u31qwQUeGuM"><span><img src="/img/play-btn.png" alt=""></span> Learn more about My Profile</a>
                     </div>
                  </div>
               </div>
@@ -56,13 +56,13 @@ import { t } from '$lib/translations';
      <!-- shape -->
      <div class="play-shape">
         <div class="play-shape-1">
-           <img src="img/play-shape.png" alt="">
+           <img src="/img/play-shape.png" alt="">
         </div>
         <div class="play-shape-2" data-aos="fade-right" data-aos-duration="1000">
-           <img src="img/play-gutter.png" alt="">
+           <img src="/img/play-gutter.png" alt="">
         </div>
         <div class="play-shape-3">
-           <img src="img/music-shape-1.png" alt="">
+           <img src="/img/music-shape-1.png" alt="">
         </div>
      </div>
      <!-- shape -->
@@ -85,7 +85,7 @@ import { t } from '$lib/translations';
         <div class="row align-items-center">
            <div class="col-md-6">
               <div class="music-img" data-aos="fade-right" data-aos-duration="1000">
-                 <img src="img/music.png" alt="">
+                 <img src="/img/music.png" alt="">
               </div>
            </div>
            <div class="col-md-6">
@@ -112,7 +112,7 @@ import { t } from '$lib/translations';
         <div class="row align-items-center">
            <div class="col-md-6 order-md-2">
               <div class="comuinity-img text-end" data-aos="fade-left" data-aos-duration="1000">
-                 <img src="img/guitter-man.png" alt="">
+                 <img src="/img/guitter-man.png" alt="">
               </div>
            </div>
            <div class="col-md-6 order-md-1">
@@ -142,10 +142,10 @@ import { t } from '$lib/translations';
               <div class="realise-wrapper" data-aos="fade-up" data-aos-duration="1400">
                  <div class="realise-box">
                     <div class="realise-img">
-                       <img src="img/rea-1.png" alt="">
+                       <img src="/img/rea-1.png" alt="">
                        <div class="realise-text">
                           <h4>Generations on the Internet</h4>
-                          <img src="img/re-music.png" alt="">
+                          <img src="/img/re-music.png" alt="">
                        </div>
                     </div>
                     <div class="realise-btn">
@@ -155,10 +155,10 @@ import { t } from '$lib/translations';
                  </div>
                  <div class="realise-box">
                     <div class="realise-img">
-                       <img src="img/rea-2.png" alt="">
+                       <img src="/img/rea-2.png" alt="">
                        <div class="realise-text">
                           <h4>Generations on the Internet</h4>
-                          <img src="img/re-music.png" alt="">
+                          <img src="/img/re-music.png" alt="">
                        </div>
                     </div>
                     <div class="realise-btn">
@@ -168,10 +168,10 @@ import { t } from '$lib/translations';
                  </div>
                  <div class="realise-box">
                     <div class="realise-img">
-                       <img src="img/rea-3.png" alt="">
+                       <img src="/img/rea-3.png" alt="">
                        <div class="realise-text">
                           <h4>Generations on the Internet</h4>
-                          <img src="img/re-music.png" alt="">
+                          <img src="/img/re-music.png" alt="">
                        </div>
                     </div>
                     <div class="realise-btn">
@@ -188,29 +188,29 @@ import { t } from '$lib/translations';
   <!-- slider area start -->
   <div class="slider-area">
      <div class="slider-shape">
-        <img src="img/music-shape-2.png" alt="">
+        <img src="/img/music-shape-2.png" alt="">
      </div>
      <div class="container">
         <div class="row align-items-center">
            <div class="col-md-5">
               <div class="slider-actives owl-carousel">
                  <div class="item">
-                    <div class="slider-img"><img src="img/slider-1.png" alt=""></div>
+                    <div class="slider-img"><img src="/img/slider-1.png" alt=""></div>
                  </div>
                  <div class="item">
-                    <div class="slider-img"><img src="img/slider-2.png" alt=""></div>
+                    <div class="slider-img"><img src="/img/slider-2.png" alt=""></div>
                  </div>
                  <div class="item">
-                    <div class="slider-img"><img src="img/slider-3.png" alt=""></div>
+                    <div class="slider-img"><img src="/img/slider-3.png" alt=""></div>
                  </div>
                  <div class="item">
-                    <div class="slider-img"><img src="img/slider-1.png" alt=""></div>
+                    <div class="slider-img"><img src="/img/slider-1.png" alt=""></div>
                  </div>
                  <div class="item">
-                    <div class="slider-img"><img src="img/slider-2.png" alt=""></div>
+                    <div class="slider-img"><img src="/img/slider-2.png" alt=""></div>
                  </div>
                  <div class="item">
-                    <div class="slider-img"><img src="img/slider-3.png" alt=""></div>
+                    <div class="slider-img"><img src="/img/slider-3.png" alt=""></div>
                  </div>
               </div>
            </div>

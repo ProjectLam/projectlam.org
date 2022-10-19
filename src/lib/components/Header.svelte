@@ -2,18 +2,8 @@
 import { t,locales,locale } from '$lib/translations';
 </script>
 
-
 <style>
 </style>
-
-      <!-- Preloader Start -->
-      <div id="preloader">
-        <div class="loader3">
-           <span></span>
-           <span></span>
-        </div>
-     </div>
-     <!-- Preloader End -->
      <!-- header strat -->
      <header>
         <div class="header-area">

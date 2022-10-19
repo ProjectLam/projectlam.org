@@ -1,5 +1,20 @@
 <script>
     import { t,locales } from '$lib/translations';
+    import { onMount } from 'svelte';
+    import jQuery from 'jquery';
+    import AOS from 'aos';
+
+    onMount(async () =>  {
+      window.jQuery = jQuery; 
+      window.AOS = AOS;
+      await import('$lib/3rd/bootstrap.min.js')      
+      await import('$lib/3rd/fontawesome.min.js');
+      await import('$lib/3rd/bootstrap-select-country.min.js')
+      await import('$lib/3rd/owl.carousel.min.js')
+      await import('$lib/3rd/jquery.magnific-popup.js')
+      await import('$lib/3rd/plugins.js');
+      await import('$lib/3rd/main.js')
+    });
 </script>
     
 

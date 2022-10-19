@@ -3,14 +3,24 @@
     import Footer from '$lib/components/Footer.svelte'
 
     import '$lib/styles/style.scss'
+
+    import '$lib/styles/bootstrap.min.css'
+    import '$lib/styles/fontawesome.min.css'
+    import '$lib/styles/aos.css'
+    import '$lib/styles/bootstrap-select-country.min.css'
+    import '$lib/styles/magnific-popup.css'
+    import '$lib/styles/owl.carousel.min.css'
+    import '$lib/styles/default.css'
+    import '$lib/styles/style.css'
+    import '$lib/styles/responsive.css'
+
     import { fade } from 'svelte/transition'
-    import "fluent-svelte/theme.css";
 
     export let data
 
 
 </script>
-    
+
     <Header />
     
     {#key data.currentRoute}

@@ -17,6 +17,7 @@ import { t,locales,locale } from '$lib/translations';
                  <div class="col-lg-7">
                     <ul id="menu">
                        <li><a href="#">Home</a></li>
+                       <li><a href="/blog">Blog</a></li>
                        <li><a href="#">About</a></li>
                        <li><a href="#">Music</a></li>
                        <li><a href="#">Project</a></li>

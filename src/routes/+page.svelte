@@ -36,13 +36,12 @@ import { t } from '$lib/translations';
            </div>
            <div class="col-lg-5 order-lg-1">
               <div class="hero-text">
-                 <h2><span>Open source</span><br>  for learning <br> the worlds <br> instruments
-                 </h2>
-                 <p><span>Lam Project</span> is working on building software that helps people learn <span>heritage instruments</span> from all around the world. We have an open-source program that lets people</p>
-                 <div class="hero-play">
+               <h2><span> {$t('home.opensource')} </span><br>  {$t('home.learning')} <br> {$t('home.worlds')} <br> {$t('home.instruments')}</h2>           
+               <p><span> {$t('home.sec1_title')} </span> {$t('home.sec1_working')} <span>{$t('home.sec1_heritage')}</span> {$t('home.sec1_from')}</p>                 
+               <div class="hero-play">
                     <div class="center">
                        <div class="circle pulse rose"></div>
-                       <a class="video-popup" href="https://www.youtube.com/watch?v=u31qwQUeGuM"><span><img src="/img/play-btn.png" alt=""></span> Learn more about My Profile</a>
+                       <a class="video-popup" href="https://www.youtube.com/watch?v=u31qwQUeGuM"><span><img src="/img/play-btn.png" alt=""></span> {$t('home.sec1_learnmore')}</a>
                     </div>
                  </div>
               </div>
@@ -70,9 +69,8 @@ import { t } from '$lib/translations';
         <div class="row">
            <div class="col-lg-10 offset-lg-1">
               <div class="play-text">
-                 <h2>Learn how to play <br> instruments?</h2>
-                 <p>We have a group of built in instruments you can learn how to play various heritage instruments. Incremental progress on how to play. You can connect electric instruments into the computer, or use a microphone to record them.
-                 </p>
+                 <h2> {$t('home.sec2_title')} <br> {$t('home.sec2_instruments')}</h2>
+                 <p> {$t('home.sec2_desc')} </p>
               </div>
            </div>
         </div>
@@ -91,14 +89,12 @@ import { t } from '$lib/translations';
            <div class="col-md-6">
               <div class="music-wrapper">
                  <div class="music-text">
-                    <h3>Build new instrument <br> Plugins:</h3>
-                    <p>Platform allows for creating new instruments, that you can add as plugins, or submit pull requests to integrate back into the main platform.
-                    </p>
+                    <h3> {$t('home.sec3.1_title')} <br> {$t('home.sec3.1_plugins')} </h3>
+                    <p> {$t('home.sec3.1_desc')} </p>
                  </div>
                  <div class="music-text music-text-color">
-                    <h3>Integrate various <br> types of music</h3>
-                    <p>We allow importing music, chording, sheet music, and other music formats from other popular music titles like UltraStar, GuitarPro, and RockSmith.
-                    </p>
+                    <h3> {$t('home.sec3.2_title')} <br> {$t('home.sec3.2_types')}</h3>
+                    <p> {$t('home.sec3.1_desc')} </p>
                  </div>
               </div>
            </div>
@@ -117,9 +113,8 @@ import { t } from '$lib/translations';
            </div>
            <div class="col-md-6 order-md-1">
               <div class="comuinity-text">
-                 <h2>Community <br> around the world</h2>
-                 <p>We have a community of people learning various heritage music from around the world. See what other players are learning, what are the most popular songs. We will soon have tools to convert music from one instrument to another
-                 </p>
+                 <h2> {$t('home.sec4_title')} <br> {$t('home.sec4_around')} </h2>
+                 <p> {$t('home.sec4_desc')} </p>
               </div>
            </div>
         </div>
@@ -132,8 +127,8 @@ import { t } from '$lib/translations';
         <div class="row">
            <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
               <div class="section-title text-center">
-                 <h3>Recent Release</h3>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Ac eget massa, gravida nibh vitae gravida. </p>
+                 <h3> {$t('home.sec5_title')} </h3>
+                 <p> {$t('home.sec5_desc1')} <br> {$t('home.sec5_desc2')} </p>
               </div>
            </div>
         </div>
@@ -144,39 +139,39 @@ import { t } from '$lib/translations';
                     <div class="realise-img">
                        <img src="/img/rea-1.png" alt="">
                        <div class="realise-text">
-                          <h4>Generations on the Internet</h4>
+                          <h4> {$t('home.sec5_gen1')} </h4>
                           <img src="/img/re-music.png" alt="">
                        </div>
                     </div>
                     <div class="realise-btn">
-                       <a href="#">Play</a>
-                       <a class="real-btn-border" href="#">Share</a>
+                       <a href="#">{$t('home.sec5_play')}</a>
+                       <a class="real-btn-border" href="#">{$t('home.sec5_share')}</a> 
                     </div>
                  </div>
                  <div class="realise-box">
                     <div class="realise-img">
                        <img src="/img/rea-2.png" alt="">
                        <div class="realise-text">
-                          <h4>Generations on the Internet</h4>
+                          <h4> {$t('home.sec5_gen2')}</h4>
                           <img src="/img/re-music.png" alt="">
                        </div>
                     </div>
                     <div class="realise-btn">
-                       <a href="#">Play</a>
-                       <a class="real-btn-border" href="#">Share</a>
+                       <a href="#">{$t('home.sec5_play')}</a>
+                       <a class="real-btn-border" href="#">{$t('home.sec5_share')}</a>
                     </div>
                  </div>
                  <div class="realise-box">
                     <div class="realise-img">
                        <img src="/img/rea-3.png" alt="">
                        <div class="realise-text">
-                          <h4>Generations on the Internet</h4>
+                          <h4>{$t('home.sec5_gen3')}</h4>
                           <img src="/img/re-music.png" alt="">
                        </div>
                     </div>
                     <div class="realise-btn">
-                       <a href="#">Play</a>
-                       <a class="real-btn-border" href="#">Share</a>
+                       <a href="#">{$t('home.sec5_play')}</a>
+                       <a class="real-btn-border" href="#">{$t('home.sec5_share')}</a>
                     </div>
                  </div>
               </div>
@@ -216,8 +211,8 @@ import { t } from '$lib/translations';
            </div>
            <div class="col-md-7">
               <div class="slider-text">
-                 <h2>What is <br> happeningin <br> the Music <br> World?</h2>
-                 <p>We have a community of people learning various heritage music from around the world. See what other players are learning, what are the most popular songs. We will soon have tools to convert music from one instrument to another</p>
+                 <h2> {$t('home.sec6_what')} <br> {$t('home.sec6_happeningin')} <br> {$t('home.sec6_music')} <br> {$t('home.sec6_world')} </h2>
+                 <p> {$t('home.sec5_desc')} </p>
               </div>
            </div>
         </div>

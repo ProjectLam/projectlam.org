@@ -16,13 +16,13 @@ import { t,locales,locale } from '$lib/translations';
                  </div>
                  <div class="col-lg-7">
                     <ul id="menu">
-                       <li><a href="#">Home</a></li>
-                       <li><a href="/blog">Blog</a></li>
-                       <li><a href="#">About</a></li>
-                       <li><a href="#">Music</a></li>
-                       <li><a href="#">Project</a></li>
-                       <li><a href="#">Album</a></li>
-                       <li><a href="#">Contact</a></li>
+                       <li><a href="#"> {$t('site.header.home')} </a></li>
+                       <li><a href="/blog"> {$t('site.header.blog')} </a></li>
+                       <li><a href="#">{$t('site.header.about')} </a></li>
+                       <li><a href="#">{$t('site.header.music')} </a></li>
+                       <li><a href="#">{$t('site.header.project')} </a></li>
+                       <li><a href="#">{$t('site.header.album')} </a></li>
+                       <li><a href="#">{$t('site.header.contact')} </a></li>
                     </ul>
                  </div>
                  <div class="col-lg-3">

@@ -1,23 +1,24 @@
 <script>
-    import { t,locales } from '$lib/translations';
-    import { onMount } from 'svelte';
-    import jQuery from 'jquery';
-    import AOS from 'aos';
-  //  import { browser } from '$app/environment';
-  //  import {tns} from 'tiny-slider?client';
+   import { t,locales } from '$lib/translations';
+   import { onMount } from 'svelte';
+   import jQuery from 'jquery';
+   import AOS from 'aos';
+ //  import { browser } from '$app/environment';
+ //  import {tns} from 'tiny-slider?client';
 
-    onMount(async () =>  {
-      window.jQuery = jQuery; 
-      window.AOS = AOS;
-      await import('$lib/3rd/bootstrap.min.js?client')    
-      await import('$lib/3rd/fontawesome.min.js?client')
-      await import('$lib/3rd/bootstrap-select-country.min.js')
-      await import('$lib/3rd/owl.carousel.min.js')
-      await import('$lib/3rd/jquery.magnific-popup.js')
-      await import('$lib/3rd/plugins.js');
-      await import('$lib/3rd/main.js')
-    });
+   onMount(async () =>  {
+     window.jQuery = jQuery; 
+     window.AOS = AOS;
+     await import('$lib/3rd/bootstrap.min.js?client')    
+     await import('$lib/3rd/fontawesome.min.js?client')
+     await import('$lib/3rd/bootstrap-select-country.min.js')
+     await import('$lib/3rd/owl.carousel.min.js')
+     await import('$lib/3rd/jquery.magnific-popup.js')
+     await import('$lib/3rd/plugins.js');
+     await import('$lib/3rd/main.js')
+   });
 </script>
+   
     
 
 <style>
@@ -35,11 +36,11 @@
            <div class="col-md-7">
               <div class="footer-menu text-end">
                  <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="/blog">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                 </ul>
+                  <li><a href="#">{$t('site.footer.home')} </a></li>
+                  <li><a href="#">{$t('site.footer.about')} </a></li>
+                  <li><a href="/blog">{$t('site.footer.blog')} </a></li>
+                  <li><a href="#">{$t('site.footer.contact')} </a></li>
+             </ul>
               </div>
               <div class="footer-socia text-end">
                  <a href="#"><img src="/img/h-icon-1.png" alt=""></a>
@@ -51,7 +52,7 @@
         <div class="row">
            <div class="col-12">
               <div class="copy-text">
-                 <p>&copy; 2022 Lam All Rights Reserved.</p>
+                 <p> {$t('copyright')} </p>
               </div>
            </div>
         </div>

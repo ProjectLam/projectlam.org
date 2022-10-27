@@ -5,7 +5,7 @@
 </script>
    
     <h1>{$t('blog.title')}</h1>
-    
+
     <ul>
       {#each data.posts as post}
         <li>

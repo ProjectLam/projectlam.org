@@ -148,7 +148,7 @@ p {
 	color: #7e7e7e;
 	margin-bottom: 16px;
 	font-family: 'Poppins', sans-serif;
-	
+
 }
 
 
@@ -241,7 +241,7 @@ p {
   	    -ms-flex-align: center;
   	        align-items: center;
   }
- 
+
   .hamburger-nav .dropdown-menu, .navbar-nav .dropdown-menu {
 	width: 15rem;
 	position: absolute;
@@ -370,7 +370,7 @@ p {
 	top: 0px;
 
 }
-  
+
 .hero-area {
 	height: 100vh;
 	position: relative;
@@ -719,7 +719,7 @@ center {
 	        align-items: center;
 	height: 100vh;
   }
-  
+
   .circle {
 	width: 65px;
 	height: 65px;
@@ -730,12 +730,12 @@ center {
 	left: 0;
 	top: 0;
 }
-  
+
   .pulse {
 	-webkit-animation: pulse-animation 3s infinite;
 	        animation: pulse-animation 3s infinite;
   }
-  
+
   @-webkit-keyframes pulse-animation {
 	0% {
 	  -webkit-box-shadow: 0 0 0 0px rgba(215,35,101,.2);
@@ -746,7 +746,7 @@ center {
 	          box-shadow: 0 0 0 10px rgb(215,35,101,.2);
 	}
   }
-  
+
   @keyframes pulse-animation {
 	0% {
 	  -webkit-box-shadow: 0 0 0 0px rgba(215,35,101,.2);
@@ -757,7 +757,7 @@ center {
 	          box-shadow: 0 0 0 10px rgb(215,35,101,.2);
 	}
   }
-  
+
 
   /* play area */
   .play-area {
@@ -803,7 +803,7 @@ center {
 
 
   /* music area */
-  
+
 .music-img {
 	padding-left: 130px;
   }
@@ -915,7 +915,7 @@ center {
 	margin-top: 5%;
 	padding-left: 30px;
   }
-  
+
   .realise-text h4 {
 	font-size: 28px;
 	line-height: 1;
@@ -923,7 +923,7 @@ center {
   .realise-text > img {
 	width: 230px;
   }
-  
+
   .section-title h3 {
 	font-size: 48px;
 	line-height: 1;
@@ -1241,3 +1241,51 @@ center {
     0% { -webkit-transform: translateY(0); transform: translateY(0); }
     100% { -webkit-transform: translateY(-10px); transform: translateY(-10px); }
 }
+
+.blog_content{
+
+    padding: 0 15px;
+    padding-top: 80px;
+    padding-bottom: 16px;
+		
+	/* background: rgba(127,75,163,1); */
+}
+
+.blog_content_head {
+	color: white;
+	background: rgba(127,75,163,1);
+    padding-top: 80px;
+    padding-bottom: 80px;
+	text-align: center;
+    margin: auto;
+}
+
+.blog_content_date{
+	color: gray;
+	text-align: center;
+	background: #5DC7C6;
+}
+
+.blog_content_post{
+	color: gray;
+	text-align: left;
+	
+}
+
+.blog_content img, video {
+    margin: auto;
+    display: block;
+    padding-bottom: 50px;
+    max-width: 700px;
+    max-height: 700px;
+}
+
+
+
+@media (max-width: 768px) {
+    .blog_content img, video {
+        max-width: 100%;
+        max-height: 600px;
+    }
+}
+

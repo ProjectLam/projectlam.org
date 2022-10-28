@@ -1,7 +1,64 @@
 {
   "home.title": "Lam Project",
+  "home.opensource": "Open source",
+  "home.learning": "for learning",
+  "home.worlds": "the worlds",
+  "home.instruments": "instruments",
+  "home.sec1_title": "Lam Project",
+  "home.sec1_working": "is working on building software that helps people learn",
+  "home.sec1_heritage": "heritage instruments",
+  "home.sec1_from": "from all around the world. We have an open-source program that lets people",
+  "home.sec1_learnmore": "Learn more about My Profile",
+
+  "home.sec2_title": "Learn how to play",
+  "home.sec2_instruments": "instruments?",
+  "home.sec2_desc": "We have a group of built in instruments you can learn how to play various heritage instruments. Incremental progress on how to play. You can connect electric instruments into the computer, or use a microphone to record them.",
+  
+  "home.sec3.1_title": "Build new instrument",
+  "home.sec3.1_plugins": "Plugins:",
+  "home.sec3.1_desc": "Platform allows for creating new instruments, that you can add as plugins, or submit pull requests to integrate back into the main platform.",
+
+  "home.sec3.2_title": "Integrate various",
+  "home.sec3.2_types": "types of music",
+  "home.sec3.2_desc": "We allow importing music, chording, sheet music, and other music formats from other popular music titles like UltraStar, GuitarPro, and RockSmith.",
+  
+  "home.sec4_title": "Community",
+  "home.sec4_around": "around the world",
+  "home.sec4_desc": "We have a community of people learning various heritage music from around the world. See what other players are learning, what are the most popular songs. We will soon have tools to convert music from one instrument to another",
+
+  "home.sec5_title": "Recent Release",
+  "home.sec5_desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing",
+  "home.sec5_desc2": "elit. Ac eget massa, gravida nibh vitae gravida.",
+  "home.sec5_gen1": "Generations on the Internet",
+  "home.sec5_gen2": "Generations on the Internet",
+  "home.sec5_gen3": "Generations on the Internet",
+  "home.sec5_play": "Play",
+  "home.sec5_share": "Share",
+
+  "home.sec6_what": "What is",
+  "home.sec6_happeningin": "happeningin",
+  "home.sec6_music": "the Music",
+  "home.sec6_world": "World?",
+  "home.sec5_desc": "We have a community of people learning various heritage music from around the world. See what other players are learning, what are the most popular songs. We will soon have tools to convert music from one instrument to another",
+
+  "site.header.home": "Home",
+  "site.header.blog": "Blog",
+  "site.header.about": "About",
+  "site.header.music": "Music",
+  "site.header.project": "Project",
+  "site.header.album": "Album",
+  "site.header.contact": "Contact",
+  "copyright": "© 2022 Lam All Rights Reserved.",
+  "site.footer.home": "Home",
+  "site.footer.about": "About",
+  "site.footer.blog": "Blog",
+  "site.footer.contact": "Contact",
+
+
   "blog.title": "blog title",
-  "site.header.blog": "BLOG",
-  "about.title": "All About Lam Project",
-  "site.header.about": "About"
+  
+
+  "about.title": "All About Lam Project"
+  
+  
 }

@@ -18,7 +18,7 @@
     <p> #{JSON.stringify(data)} </p>
     {#if data.categories && data.categories.length}
     <aside>
-      <h2 class="blog_content_post">Posted in:</h2>
+      <h3 class="blog_content_post">Tags</h3>
       <ul>
         {#each data.categories as category}
           <li>

@@ -1,0 +1,18 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 50" width="46" height="50">
+	<title>next-svg</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m-1269-6466h1350v7909h-1350z"/>
+		</clipPath>
+		<image width="52" height="57" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA5CAYAAAB55gg1AAAAAXNSR0IArs4c6QAAAoZJREFUaEPtmv8xBEEQhd9FQAbIQAbIgAgQASJABIgAGcgAGRABMiAD9VXNXk21/T27M31X+p+rcmarv+p5/XZ6bqE1i8Wa8egfyHtF6yq0K+leEp+fkq4kPXoHqfKzQJuSPiTxGcebpAtJL97BLNC+pOeWpJ8CGJVzGW1Ar6Ei55I2TPa3kq4lfXuj6gKiYmw/AI5N8sCgrztPUH2Aqny3JT1I2jMAbD/0xXYsHkOAqmSpGmBbJnsaBmA0kGIxBqhK9iRsRasvYNFXkcaRAgQY+qJpXNboC92hr6yNIxUo1hcNwjaO7MY8FVCsL8Bs48hmzFMDxfoCzDaO2Y15LqAKDKisxjw3UNU4shlzDqCsxpwTKIsxlwCa1ZhLAs1izKWBJjdmL0CTGbM3oGRj9go02pi9A3UZ85Ed3KwCUJsxczTZiY8oqwQU64u5YRUHcZVWCYjD5Fl42Y3nhlRoeTpeFSAOjry5M6iJ4zTMN5Z/8w7EQOYmjKVjEGaGAP6Z5HoFohKAHJqKfAUQBjG14Q0IbTBw4VAYx0+YMFGV1vAEhOBJ2F4UcPMBYK/pkQcgthXbywoenTD7GzTfKwnE/RMgCD8OdALIqKubEkBUAp2QtNUJW6tR8F364fucQE3GWAmeQUovnbSB5QJqMkYETyMYpJOSQIONsc+2KgHUZozoZLa7pKm3XLIxeqrQJMboAWhSYywJ1GSM7+FVZZQxlgCa1RhzAjUZIzlwpzqJMeYCymaMcwPh4oNOjKkJpa5v86G6Z3eeGFMTSl1vgRA8v8ay0fvEmJpQ6noLxPPsDyoGnRhTE0pdXwfEM+lo+AzX8cmv9KlJDlnfBDTkGa7+9x/IVTlqkvkFRbjrOoO/tuEAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		.s0 { fill: #f6c247 } 
+	</style>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<g id="Layer">
+			<path id="Layer" class="s0" d="m45.2 24.6c0 1-0.5 1.9-1.4 2.4l-38.8 21.9c-0.9 0.5-2 0.5-2.9 0-0.9-0.5-1.4-1.5-1.4-2.5v-43.6c0-1 0.5-1.9 1.4-2.4 0.9-0.6 2-0.6 2.9-0.1l38.8 21.9c0.9 0.5 1.4 1.4 1.4 2.4z"/>
+			<use id="img1" href="#img1" transform="matrix(1,0,0,1,-3,-4)"/>
+		</g>
+	</g>
+</svg>

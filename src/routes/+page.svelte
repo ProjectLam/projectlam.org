@@ -5,217 +5,273 @@ import { t } from '$lib/translations';
 <!--
 <h1>{$t('home.title')}</h1>
 -->
+<main class="overflow-hidden">
+   <!-- hero section -->
+   <div class="hero_area">
+       <div class="container">
+           <div class="row justify-content-center">
+               <div class="col-xl-11">
+                   <h1>OPEN-SOURCE SOFTWARE FOR LEARNING THE WORLD'S INSTRUMENTS</h1>
 
-  <!-- hero area start -->
-  <div class="hero-area fix d-flex align-items-center">
-     <!-- hero shape -->
-     <div class="hero-shape">
-        <div class="hero-shape-1">
-           <img src="/img/h-shape-1.png" alt="">
-        </div>
-        <div class="hero-shape-2">
-           <img src="/img/h-shape-1.png" alt="">
-        </div>
-        <div class="hero-shape-3">
-           <img src="/img/h-shape-2.png" alt="">
-        </div>
-        <div class="hero-shape-4">
-           <img src="/img/h-shape-1.png" alt="">
-        </div>
-        <div class="hero-shape-5">
-           <img src="/img/h-shape-3.png" alt="">
-        </div>
-     </div>
-     <!-- hero shape -->
-     <div class="container">
-        <div class="row align-items-center">
-           <div class="col-lg-7 order-lg-2">
-              <div class="hero-img">
-                 <img class="vert-move" src="/img/hero-man.png" alt="">
-              </div>
+                   <p>Lam Project is working on building software that helps people learn heritage instruments from all around the world. We have an open source program that lets people</p>
+               </div>
            </div>
-           <div class="col-lg-5 order-lg-1">
-              <div class="hero-text">
-               <h2><span> {$t('home.opensource')} </span><br>  {$t('home.learning')} <br> {$t('home.worlds')} <br> {$t('home.instruments')}</h2>           
-               <p><span> {$t('home.sec1_title')} </span> {$t('home.sec1_working')} <span>{$t('home.sec1_heritage')}</span> {$t('home.sec1_from')}</p>                 
-               <div class="hero-play">
-                    <div class="center">
-                       <div class="circle pulse rose"></div>
-                       <a class="video-popup" href="https://www.youtube.com/watch?v=u31qwQUeGuM"><span><img src="/img/play-btn.png" alt=""></span> {$t('home.sec1_learnmore')}</a>
-                    </div>
-                 </div>
-              </div>
+       </div>
+       <img src="img/wave.gif" class="w-100" alt="">
+       <div class="container btn_wrap text-center">
+           <a href="#" class="button">LEARN NOW</a>
+       </div>
+   </div>
+   <div class="bg_img position-relative">
+       <img src="img/bg1.png" class="w-100 b_imges" alt="">
+       <!-- learn section -->
+       <div class="learn_area position-relative" data-aos="fade-up">
+           <div class="container">
+               <div class="row gx-5 justify-content-end align-items-center">
+                   <div class="col-lg-6 col-md-5 mt_40 ab1">
+                       <img src="img/img1.png" class="img-fluid" alt="">
+                   </div>
+                   <div class="col-lg-6 col-md-7 mt_40">
+                       <h2 class="title">Learn how to play instruments</h2>
+                       <p class="lg_text mt_50">We have a group of built in instruments you can learn how to play various <span class="pink">heritage instruments.</span> Incremental progress on how to play. You can connect electric instruments into the computer, or use a microphone to record them.</p>
+
+                       <h3 class="title_md mt_45">50,000</h3>
+                       <p class="lg_text mt_10">People will learn this year</p>
+                   </div>
+               </div>
            </div>
-        </div>
-     </div>
-  </div>
-  <!-- hero area end -->
-  <!-- play area start -->
-  <div class="play-area d-flex align-items-center">
-     <!-- shape -->
-     <div class="play-shape">
-        <div class="play-shape-1">
-           <img src="/img/play-shape.png" alt="">
-        </div>
-        <div class="play-shape-2" data-aos="fade-right" data-aos-duration="1000">
-           <img src="/img/play-gutter.png" alt="">
-        </div>
-        <div class="play-shape-3">
-           <img src="/img/music-shape-1.png" alt="">
-        </div>
-     </div>
-     <!-- shape -->
-     <div class="container">
-        <div class="row">
-           <div class="col-lg-10 offset-lg-1">
-              <div class="play-text">
-                 <h2> {$t('home.sec2_title')} <br> {$t('home.sec2_instruments')}</h2>
-                 <p> {$t('home.sec2_desc')} </p>
-              </div>
+       </div>
+       <!-- instrument area -->
+       <div class="instrument_area" data-aos="fade-up">
+           <div class="container position-relative">
+               <div class="row">
+                   <div class="col-md-5 order-md-2 mt_40 ab2">
+                       <img src="img/dj.svg" class="w-100" alt="">
+                   </div>
+                   <div class="col-md-7 order-md-1 mt_40">
+                       <h2 class="title yellow">Build new<br> instrument Plugins</h2>
+                       <p class="lg_text mt_100">Platform allows for creating new instruments, that you can add as plugins, or submit pull requests to integrate back into the main platform.</p>
+                   </div> 
+               </div>
            </div>
-        </div>
-     </div>
-  </div>
-  <!-- play area end -->
-  <!-- music area start -->
-  <div class="music-area pt-80 pb-120">
-     <div class="container-fluid">
-        <div class="row align-items-center">
-           <div class="col-md-6">
-              <div class="music-img" data-aos="fade-right" data-aos-duration="1000">
-                 <img src="/img/music.png" alt="">
-              </div>
+       </div>        
+
+       <!-- integrate area -->
+       <div class="integrate_area" data-aos="fade-up">
+           <div class="container position-relative">
+               <div class="row gx-5 align-items-center">
+                   <div class="col-lg-6 col-md-5 mt_40">
+                       <img src="img/head.svg" class="img-fluid" alt="">
+                   </div>
+                   <div class="col-lg-6 col-md-7 mt_40">
+                       <h2 class="title">Integrate various types of music</h2>
+                       <p class="lg_text mt_100">Platform allows for creating new instruments, that you can add as plugins, or submit pull requests to integrate back into the main platform.</p>
+                   </div> 
+               </div>
            </div>
-           <div class="col-md-6">
-              <div class="music-wrapper">
-                 <div class="music-text">
-                    <h3> {$t('home.sec3.1_title')} <br> {$t('home.sec3.1_plugins')} </h3>
-                    <p> {$t('home.sec3.1_desc')} </p>
-                 </div>
-                 <div class="music-text music-text-color">
-                    <h3> {$t('home.sec3.2_title')} <br> {$t('home.sec3.2_types')}</h3>
-                    <p> {$t('home.sec3.1_desc')} </p>
-                 </div>
-              </div>
+       </div>
+   </div>
+
+   <!-- community area -->
+   <div class="community_area pt_80" data-aos="fade-up">
+       <div class="container">
+           <div class="community_box">
+               <img src="img/line.svg" class="line line2" alt="">
+               <div class="community_content">
+                   <h4>COMMUNITY AROUND THE WORLD</h4>
+                   <p class="mt_40">We have a community of people learning various heritage music from around the world. See what other players are learning, what are the most popular songs. We will soon have tools to convert music from one instrument to another</p>
+                   <a href="#" class="button mt_45 pink_btn">GET INVOLVED</a>
+               </div>
+               <img src="img/line.svg" class="line" alt="">
            </div>
-        </div>
-     </div>
-  </div>
-  <!-- music area end -->
-  <!-- comuinity area start -->
-  <div class="comuinity-area fix">
-     <div class="container-fluid">
-        <div class="row align-items-center">
-           <div class="col-md-6 order-md-2">
-              <div class="comuinity-img text-end" data-aos="fade-left" data-aos-duration="1000">
-                 <img src="/img/guitter-man.png" alt="">
-              </div>
-           </div>
-           <div class="col-md-6 order-md-1">
-              <div class="comuinity-text">
-                 <h2> {$t('home.sec4_title')} <br> {$t('home.sec4_around')} </h2>
-                 <p> {$t('home.sec4_desc')} </p>
-              </div>
-           </div>
-        </div>
-     </div>
-  </div>
-  <!-- comuinity area end -->
-  <!-- realise area start -->
-  <div class="realise-area pt-140 pb-140">
-     <div class="container">
-        <div class="row">
-           <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
-              <div class="section-title text-center">
-                 <h3> {$t('home.sec5_title')} </h3>
-                 <p> {$t('home.sec5_desc1')} <br> {$t('home.sec5_desc2')} </p>
-              </div>
-           </div>
-        </div>
-        <div class="row">
-           <div class="col-lg-12">
-              <div class="realise-wrapper" data-aos="fade-up" data-aos-duration="1400">
-                 <div class="realise-box">
-                    <div class="realise-img">
-                       <img src="/img/rea-1.png" alt="">
-                       <div class="realise-text">
-                          <h4> {$t('home.sec5_gen1')} </h4>
-                          <img src="/img/re-music.png" alt="">
+       </div>
+   </div>
+
+   <!-- blog area -->
+   <div class="blog_area">
+       <div class="container">
+           <h2 class="title pb_100">Blog & News</h2>
+           <div class="row justify-content-center">
+               <div class="col-lg-11">
+                   <div class="row g-5" data-aos="fade-up">
+                       <div class="col-md-6">
+                           <div class="blog_box">
+                               <div class="date">22.10.2022</div>
+                               <a href="#"><h3>HOW TO START PLAYING PHIN</h3></a>
+                               <p>Use these tips and tricks to make the most of your first weeks with the instrument.</p>
+                           </div>
+                       </div>                            
+                       <div class="col-md-6">
+                           <div class="blog_box">
+                               <div class="date">10.10.2022</div>
+                               <a href="#"><h3>WHAT’S THAT SOUND: FUZZ</h3></a>
+                               <p>Imagine playing in an otherwise ordinary recording session when a piece of studio equipment fails</p>
+                           </div>
+                       </div>                            
+                       <div class="col-md-6">
+                           <div class="blog_box">
+                               <div class="date">22.10.2022</div>
+                               <a href="#"><h3>THREE EXTREME FLUTE TECHNIQUES YOU NEED TO KNOW</h3></a>
+                               <p>Use these tips and tricks to make the most of your first weeks with the instrument.</p>
+                           </div>
+                       </div>                            
+                       <div class="col-md-6">
+                           <div class="blog_box">
+                               <div class="date">22.10.2022</div>
+                               <a href="#"><h3>WHAT'S THAT SOUND: CHORUS</h3></a>
+                               <p>Imagine playing in an otherwise ordinary recording session when a piece of studio equipment fails</p>
+                           </div>
                        </div>
-                    </div>
-                    <div class="realise-btn">
-                       <a href="#">{$t('home.sec5_play')}</a>
-                       <a class="real-btn-border" href="#">{$t('home.sec5_share')}</a> 
-                    </div>
-                 </div>
-                 <div class="realise-box">
-                    <div class="realise-img">
-                       <img src="/img/rea-2.png" alt="">
-                       <div class="realise-text">
-                          <h4> {$t('home.sec5_gen2')}</h4>
-                          <img src="/img/re-music.png" alt="">
+                       <div class="col-12 text-end">
+                           <a href="#" class="see_link">
+                               See more
+                               <img src="img/arrow.png" alt="">
+                           </a>
                        </div>
-                    </div>
-                    <div class="realise-btn">
-                       <a href="#">{$t('home.sec5_play')}</a>
-                       <a class="real-btn-border" href="#">{$t('home.sec5_share')}</a>
-                    </div>
-                 </div>
-                 <div class="realise-box">
-                    <div class="realise-img">
-                       <img src="/img/rea-3.png" alt="">
-                       <div class="realise-text">
-                          <h4>{$t('home.sec5_gen3')}</h4>
-                          <img src="/img/re-music.png" alt="">
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+
+   <!-- get started area -->
+   <div class="get_started" data-aos="fade-up">
+       <div class="container">
+           <h2 class="title">Ready to get started?</h2>
+           <div class="row justify-content-center">
+               <div class="col-lg-11">
+                   <ul class="nav nav-pills">
+                       <li class="nav-item">
+                           <button class="nav-link" data-bs-toggle="pill" data-bs-target="#video" type="button">Video</button>
+                       </li>
+                       <li class="nav-item">
+                           <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#screen" type="button">Screenshots</button>
+                       </li>
+                   </ul>
+                   <div class="tab-content">
+                       <div class="tab-pane fade" id="video">
+                           <div id="carousel2" class="carousel slide" data-bs-ride="false">
+                               <div class="carousel-inner">
+                                   <div class="carousel-item active">
+                                       <div class="row g-4">
+                                           <div class="col-md-6">
+                                               <img src="img/screenshot1.png" class="w-100" alt="">
+                                           </div>                                        
+                                           <div class="col-md-6">
+                                               <img src="img/screenshot2.png" class="w-100" alt="">
+                                           </div>                                        
+                                           <div class="col-md-4">
+                                               <img src="img/screenshot3.png" class="w-100" alt="">
+                                           </div>                                        
+                                           <div class="col-md-4">
+                                               <img src="img/screenshot4.png" class="w-100" alt="">
+                                           </div>                                        
+                                           <div class="col-md-4">
+                                               <img src="img/screenshot5.png" class="w-100" alt="">
+                                           </div>
+                                       </div>
+                                   </div>
+                                   <div class="carousel-item">
+                                       <div class="row g-4">
+                                           <div class="col-md-6">
+                                               <img src="img/screenshot1.png" class="w-100" alt="">
+                                           </div>                                        
+                                           <div class="col-md-6">
+                                               <img src="img/screenshot2.png" class="w-100" alt="">
+                                           </div>                                        
+                                           <div class="col-md-4">
+                                               <img src="img/screenshot3.png" class="w-100" alt="">
+                                           </div>                                        
+                                           <div class="col-md-4">
+                                               <img src="img/screenshot4.png" class="w-100" alt="">
+                                           </div>                                        
+                                           <div class="col-md-4">
+                                               <img src="img/screenshot5.png" class="w-100" alt="">
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                               <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                                   <img src="img/prev.svg" class="img-fluid" alt="">
+                               </button>
+                               <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                                   <img src="img/next.svg" class="img-fluid" alt="">
+                               </button>
+                           </div>
+                           <div class="text-center mt_60">
+                               <a href="#" class="button">LEARN NOW</a>
+                           </div>
                        </div>
-                    </div>
-                    <div class="realise-btn">
-                       <a href="#">{$t('home.sec5_play')}</a>
-                       <a class="real-btn-border" href="#">{$t('home.sec5_share')}</a>
-                    </div>
-                 </div>
-              </div>
+                       <div class="tab-pane fade show active" id="screen">
+                           <div id="carousel" class="carousel slide" data-bs-ride="false">
+                               <div class="carousel-inner">
+                                   <div class="carousel-item active">
+                                       <div class="row g-4">
+                                           <div class="col-md-6">
+                                               <img src="img/screenshot1.png" class="w-100" alt="">
+                                           </div>                                        
+                                           <div class="col-md-6">
+                                               <img src="img/screenshot2.png" class="w-100" alt="">
+                                           </div>                                        
+                                           <div class="col-md-4">
+                                               <img src="img/screenshot3.png" class="w-100" alt="">
+                                           </div>                                        
+                                           <div class="col-md-4">
+                                               <img src="img/screenshot4.png" class="w-100" alt="">
+                                           </div>                                        
+                                           <div class="col-md-4">
+                                               <img src="img/screenshot5.png" class="w-100" alt="">
+                                           </div>
+                                       </div>
+                                   </div>
+                                   <div class="carousel-item">
+                                       <div class="row g-4">
+                                           <div class="col-md-6">
+                                               <img src="img/screenshot1.png" class="w-100" alt="">
+                                           </div>                                        
+                                           <div class="col-md-6">
+                                               <img src="img/screenshot2.png" class="w-100" alt="">
+                                           </div>                                        
+                                           <div class="col-md-4">
+                                               <img src="img/screenshot3.png" class="w-100" alt="">
+                                           </div>                                        
+                                           <div class="col-md-4">
+                                               <img src="img/screenshot4.png" class="w-100" alt="">
+                                           </div>                                        
+                                           <div class="col-md-4">
+                                               <img src="img/screenshot5.png" class="w-100" alt="">
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                               <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                                   <img src="img/prev.svg" class="img-fluid" alt="">
+                               </button>
+                               <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                                   <img src="img/next.svg" class="img-fluid" alt="">
+                               </button>
+                           </div>
+                           <div class="text-center mt_60">
+                               <a href="#" class="button">LEARN NOW</a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
            </div>
-        </div>
-     </div>
-  </div>
-  <!-- realise area end -->
-  <!-- slider area start -->
-  <div class="slider-area">
-     <div class="slider-shape">
-        <img src="/img/music-shape-2.png" alt="">
-     </div>
-     <div class="container">
-        <div class="row align-items-center">
-           <div class="col-md-5">
-              <div class="slider-actives owl-carousel">
-                 <div class="item">
-                    <div class="slider-img"><img src="/img/slider-1.png" alt=""></div>
-                 </div>
-                 <div class="item">
-                    <div class="slider-img"><img src="/img/slider-2.png" alt=""></div>
-                 </div>
-                 <div class="item">
-                    <div class="slider-img"><img src="/img/slider-3.png" alt=""></div>
-                 </div>
-                 <div class="item">
-                    <div class="slider-img"><img src="/img/slider-1.png" alt=""></div>
-                 </div>
-                 <div class="item">
-                    <div class="slider-img"><img src="/img/slider-2.png" alt=""></div>
-                 </div>
-                 <div class="item">
-                    <div class="slider-img"><img src="/img/slider-3.png" alt=""></div>
-                 </div>
-              </div>
-           </div>
-           <div class="col-md-7">
-              <div class="slider-text">
-                 <h2> {$t('home.sec6_what')} <br> {$t('home.sec6_happeningin')} <br> {$t('home.sec6_music')} <br> {$t('home.sec6_world')} </h2>
-                 <p> {$t('home.sec5_desc')} </p>
-              </div>
-           </div>
-        </div>
-     </div>
-  </div>
-  <!-- slider area end -->
+       </div>
+   </div>
+
+   <!-- update area -->
+   <div class="update_area" data-aos="fade-up">
+       <div class="container text-center">
+           <h2 class="title">Stay Updated</h2>
+           <p>Keep up with our new updates and annoucement</p>
+           <form action="#" class="email_form">
+               <input type="email" placeholder="Email">
+               <button type="submit">
+                   <img src="img/arrow.png" class="img-fluid" alt="">
+               </button>
+           </form>
+       </div>
+   </div>
+</main>

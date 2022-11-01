@@ -4,50 +4,62 @@ import { t,locales,locale } from '$lib/translations';
 
 <style>
 </style>
-     <!-- header strat -->
-     <header>
-        <div class="header-area">
-           <div class="container-fluid">
-              <div class="row align-items-center header-padding">
-                 <div class="col-lg-2">
-                    <div class="logo">
-                       <a href="index.html"><img src="/img/logo.png" alt=""> Lam</a>
-                    </div>
-                 </div>
-                 <div class="col-lg-7">
-                    <ul id="menu">
-                       <li><a href="#"> {$t('site.header.home')} </a></li>
-                       <li><a href="/blog"> {$t('site.header.blog')} </a></li>
-                       <li><a href="#">{$t('site.header.about')} </a></li>
-                       <li><a href="#">{$t('site.header.music')} </a></li>
-                       <li><a href="#">{$t('site.header.project')} </a></li>
-                       <li><a href="#">{$t('site.header.album')} </a></li>
-                       <li><a href="#">{$t('site.header.contact')} </a></li>
-                    </ul>
-                 </div>
-                 <div class="col-lg-3">
-                    <div class="header-right navbar-nav f-right">
-                       <!-- Menu -->
-                       <!-- Flag Picker -->
-                       <div id="options" class="input_box" data-input-name="country2" data-selected-country="GB"></div>
-                       <div class="header-right-social">
-                          <a href="#"><img src="/img/h-icon-1.png" alt=""></a>
-                          <a href="#"><img src="/img/h-icon-2.png" alt=""></a>
-                          <a href="#"><img src="/img/h-icon-3.png" alt=""></a>
-                       </div>
-                    </div>
-                 </div>
+
+
+    <!-- start header -->
+    <header class="navbar navbar-expand-lg">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">
+              <img src="img/logo.svg" alt="">
+              Lam Project
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-expanded="false">
+              <img src="img/bars.svg" class="img-fluid" alt="">
+          </button>
+          <div class="collapse navbar-collapse" id="nav">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Tutorials</a>
+                  </li>                    
+                  <li class="nav-item">
+                      <a class="nav-link" href="blog.html">Blog</a>
+                  </li>                    
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Community</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                          More
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something</a></li>
+                      </ul>
+                  </li>
+              </ul>
+              <div class="right_content d-flex align-items-center">
+                  <div class="dropdown">
+                      <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                          EN
+                      </a>
+
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">EN</a></li>
+                          <li><a class="dropdown-item" href="#">NL</a></li>
+                          <li><a class="dropdown-item" href="#">EO</a></li>
+                      </ul>
+                  </div>
+                  <a href="#" class="head_btn">Get help</a>
               </div>
-              <!-- hamburger menu -->
-              <div class="hamburger-menu">
-                 <span class="line-top"></span>
-                 <span class="line-center"></span>
-                 <span class="line-bottom"></span>
-              </div>
-           </div>
-        </div>
-     </header>
-     <!-- header end -->
+          </div>
+      </div>
+  </header>
+
+
 
   <!--
               <a href="/blog">{$t('site.header.blog')}</a>

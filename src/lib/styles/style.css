@@ -6,12 +6,12 @@
 font-family: 'Poppins', sans-serif;*/
 @font-face {
 	font-family: 'Pattanakarn';
-	src: url('../webfonts/Pattanakarn-Medium.eot');
-	src: url('../webfonts/Pattanakarn-Medium.eot?#iefix') format('embedded-opentype'),
-	    url('../webfonts/Pattanakarn-Medium.woff2') format('woff2'),
-	    url('../webfonts/Pattanakarn-Medium.woff') format('woff'),
-	    url('../webfonts/Pattanakarn-Medium.ttf') format('truetype'),
-	    url('../webfonts/Pattanakarn-Medium.svg#Pattanakarn-Medium') format('svg');
+	src: url('/webfonts/Pattanakarn-Medium.eot');
+	src: url('/webfonts/Pattanakarn-Medium.eot?#iefix') format('embedded-opentype'),
+	    url('/webfonts/Pattanakarn-Medium.woff2') format('woff2'),
+	    url('/webfonts/Pattanakarn-Medium.woff') format('woff'),
+	    url('/webfonts/Pattanakarn-Medium.ttf') format('truetype'),
+	    url('/webfonts/Pattanakarn-Medium.svg#Pattanakarn-Medium') format('svg');
 	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
@@ -20,12 +20,12 @@ font-family: 'Poppins', sans-serif;*/
 
 @font-face {
   font-family: 'Pattanakarn';
-  src: url('../webfonts/Pattanakarn-Bold.eot');
-  src: url('../webfonts/Pattanakarn-Bold.eot?#iefix') format('embedded-opentype'),
-      url('../webfonts/Pattanakarn-Bold.woff2') format('woff2'),
-      url('../webfonts/Pattanakarn-Bold.woff') format('woff'),
-      url('../webfonts/Pattanakarn-Bold.ttf') format('truetype'),
-      url('../webfonts/Pattanakarn-Bold.svg#Pattanakarn-Bold') format('svg');
+  src: url('/webfonts/Pattanakarn-Bold.eot');
+  src: url('/webfonts/Pattanakarn-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/webfonts/Pattanakarn-Bold.woff2') format('woff2'),
+      url('/webfonts/Pattanakarn-Bold.woff') format('woff'),
+      url('/webfonts/Pattanakarn-Bold.ttf') format('truetype'),
+      url('/webfonts/Pattanakarn-Bold.svg#Pattanakarn-Bold') format('svg');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -33,12 +33,12 @@ font-family: 'Poppins', sans-serif;*/
 
 @font-face {
 	font-family: 'Pattanakarn';
-	src: url('../webfonts/Pattanakarn-ExtraBold.eot');
-	src: url('../webfonts/Pattanakarn-ExtraBold.eot?#iefix') format('embedded-opentype'),
-	    url('../webfonts/Pattanakarn-ExtraBold.woff2') format('woff2'),
-	    url('../webfonts/Pattanakarn-ExtraBold.woff') format('woff'),
-	    url('../webfonts/Pattanakarn-ExtraBold.ttf') format('truetype'),
-	    url('../webfonts/Pattanakarn-ExtraBold.svg#Pattanakarn-ExtraBold') format('svg');
+	src: url('/webfonts/Pattanakarn-ExtraBold.eot');
+	src: url('/webfonts/Pattanakarn-ExtraBold.eot?#iefix') format('embedded-opentype'),
+	    url('/webfonts/Pattanakarn-ExtraBold.woff2') format('woff2'),
+	    url('/webfonts/Pattanakarn-ExtraBold.woff') format('woff'),
+	    url('/webfonts/Pattanakarn-ExtraBold.ttf') format('truetype'),
+	    url('/webfonts/Pattanakarn-ExtraBold.svg#Pattanakarn-ExtraBold') format('svg');
 	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
@@ -46,12 +46,12 @@ font-family: 'Poppins', sans-serif;*/
 
 @font-face {
 	font-family: 'Pattanakarn';
-	src: url('../webfonts/Pattanakarn-Regular.eot');
-	src: url('../webfonts/Pattanakarn-Regular.eot?#iefix') format('embedded-opentype'),
-	    url('../webfonts/Pattanakarn-Regular.woff2') format('woff2'),
-	    url('../webfonts/Pattanakarn-Regular.woff') format('woff'),
-	    url('../webfonts/Pattanakarn-Regular.ttf') format('truetype'),
-	    url('../webfonts/Pattanakarn-Regular.svg#Pattanakarn-Regular') format('svg');
+	src: url('/webfonts/Pattanakarn-Regular.eot');
+	src: url('/webfonts/Pattanakarn-Regular.eot?#iefix') format('embedded-opentype'),
+	    url('/webfonts/Pattanakarn-Regular.woff2') format('woff2'),
+	    url('/webfonts/Pattanakarn-Regular.woff') format('woff'),
+	    url('/webfonts/Pattanakarn-Regular.ttf') format('truetype'),
+	    url('/webfonts/Pattanakarn-Regular.svg#Pattanakarn-Regular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;

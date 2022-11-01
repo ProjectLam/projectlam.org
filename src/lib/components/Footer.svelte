@@ -26,7 +26,7 @@
 			<div class="col-md-3 col-sm-6 mt_50">
 				<h4>Get Started</h4>
 				<ul class="link_menu">
-					<li><a href="blog.html">Blog</a></li>
+					<li><a href="/blog">Blog</a></li>
 					<li><a href="#">Game</a></li>
 					<li><a href="#">Careers</a></li>
 					<li><a href="#">Help</a></li>
@@ -42,8 +42,8 @@
 				</ul>
 			</div>
 			<div class="col-12 mt_50">
-				<a class="navbar-brand" href="index.html">
-					<img src="img/logo.svg" alt="" />
+				<a class="navbar-brand" href="/">
+					<img src="/img/logo.svg" alt="" />
 					Lam Project
 				</a>
 			</div>

@@ -17,19 +17,19 @@ import { t } from '$lib/translations';
                </div>
            </div>
        </div>
-       <img src="img/wave.gif" class="w-100" alt="">
+       <img src="/img/wave.gif" class="w-100" alt="">
        <div class="container btn_wrap text-center">
            <a href="#" class="button">LEARN NOW</a>
        </div>
    </div>
    <div class="bg_img position-relative">
-       <img src="img/bg1.png" class="w-100 b_imges" alt="">
+       <img src="/img/bg1.png" class="w-100 b_imges" alt="">
        <!-- learn section -->
        <div class="learn_area position-relative" data-aos="fade-up">
            <div class="container">
                <div class="row gx-5 justify-content-end align-items-center">
                    <div class="col-lg-6 col-md-5 mt_40 ab1">
-                       <img src="img/img1.png" class="img-fluid" alt="">
+                       <img src="/img/img1.png" class="img-fluid" alt="">
                    </div>
                    <div class="col-lg-6 col-md-7 mt_40">
                        <h2 class="title">Learn how to play instruments</h2>
@@ -46,7 +46,7 @@ import { t } from '$lib/translations';
            <div class="container position-relative">
                <div class="row">
                    <div class="col-md-5 order-md-2 mt_40 ab2">
-                       <img src="img/dj.svg" class="w-100" alt="">
+                       <img src="/img/dj.svg" class="w-100" alt="">
                    </div>
                    <div class="col-md-7 order-md-1 mt_40">
                        <h2 class="title yellow">Build new<br> instrument Plugins</h2>
@@ -61,7 +61,7 @@ import { t } from '$lib/translations';
            <div class="container position-relative">
                <div class="row gx-5 align-items-center">
                    <div class="col-lg-6 col-md-5 mt_40">
-                       <img src="img/head.svg" class="img-fluid" alt="">
+                       <img src="/img/head.svg" class="img-fluid" alt="">
                    </div>
                    <div class="col-lg-6 col-md-7 mt_40">
                        <h2 class="title">Integrate various types of music</h2>
@@ -76,13 +76,13 @@ import { t } from '$lib/translations';
    <div class="community_area pt_80" data-aos="fade-up">
        <div class="container">
            <div class="community_box">
-               <img src="img/line.svg" class="line line2" alt="">
+               <img src="/img/line.svg" class="line line2" alt="">
                <div class="community_content">
                    <h4>COMMUNITY AROUND THE WORLD</h4>
                    <p class="mt_40">We have a community of people learning various heritage music from around the world. See what other players are learning, what are the most popular songs. We will soon have tools to convert music from one instrument to another</p>
                    <a href="#" class="button mt_45 pink_btn">GET INVOLVED</a>
                </div>
-               <img src="img/line.svg" class="line" alt="">
+               <img src="/img/line.svg" class="line" alt="">
            </div>
        </div>
    </div>
@@ -125,7 +125,7 @@ import { t } from '$lib/translations';
                        <div class="col-12 text-end">
                            <a href="#" class="see_link">
                                See more
-                               <img src="img/arrow.png" alt="">
+                               <img src="/img/arrow.png" alt="">
                            </a>
                        </div>
                    </div>
@@ -155,47 +155,47 @@ import { t } from '$lib/translations';
                                    <div class="carousel-item active">
                                        <div class="row g-4">
                                            <div class="col-md-6">
-                                               <img src="img/screenshot1.png" class="w-100" alt="">
+                                               <img src="/img/screenshot1.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-6">
-                                               <img src="img/screenshot2.png" class="w-100" alt="">
+                                               <img src="/img/screenshot2.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-4">
-                                               <img src="img/screenshot3.png" class="w-100" alt="">
+                                               <img src="/img/screenshot3.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-4">
-                                               <img src="img/screenshot4.png" class="w-100" alt="">
+                                               <img src="/img/screenshot4.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-4">
-                                               <img src="img/screenshot5.png" class="w-100" alt="">
+                                               <img src="/img/screenshot5.png" class="w-100" alt="">
                                            </div>
                                        </div>
                                    </div>
                                    <div class="carousel-item">
                                        <div class="row g-4">
                                            <div class="col-md-6">
-                                               <img src="img/screenshot1.png" class="w-100" alt="">
+                                               <img src="/img/screenshot1.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-6">
-                                               <img src="img/screenshot2.png" class="w-100" alt="">
+                                               <img src="/img/screenshot2.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-4">
-                                               <img src="img/screenshot3.png" class="w-100" alt="">
+                                               <img src="/img/screenshot3.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-4">
-                                               <img src="img/screenshot4.png" class="w-100" alt="">
+                                               <img src="/img/screenshot4.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-4">
-                                               <img src="img/screenshot5.png" class="w-100" alt="">
+                                               <img src="/img/screenshot5.png" class="w-100" alt="">
                                            </div>
                                        </div>
                                    </div>
                                </div>
                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
-                                   <img src="img/prev.svg" class="img-fluid" alt="">
+                                   <img src="/img/prev.svg" class="img-fluid" alt="">
                                </button>
                                <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
-                                   <img src="img/next.svg" class="img-fluid" alt="">
+                                   <img src="/img/next.svg" class="img-fluid" alt="">
                                </button>
                            </div>
                            <div class="text-center mt_60">
@@ -208,47 +208,47 @@ import { t } from '$lib/translations';
                                    <div class="carousel-item active">
                                        <div class="row g-4">
                                            <div class="col-md-6">
-                                               <img src="img/screenshot1.png" class="w-100" alt="">
+                                               <img src="/img/screenshot1.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-6">
-                                               <img src="img/screenshot2.png" class="w-100" alt="">
+                                               <img src="/img/screenshot2.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-4">
-                                               <img src="img/screenshot3.png" class="w-100" alt="">
+                                               <img src="/img/screenshot3.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-4">
-                                               <img src="img/screenshot4.png" class="w-100" alt="">
+                                               <img src="/img/screenshot4.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-4">
-                                               <img src="img/screenshot5.png" class="w-100" alt="">
+                                               <img src="/img/screenshot5.png" class="w-100" alt="">
                                            </div>
                                        </div>
                                    </div>
                                    <div class="carousel-item">
                                        <div class="row g-4">
                                            <div class="col-md-6">
-                                               <img src="img/screenshot1.png" class="w-100" alt="">
+                                               <img src="/img/screenshot1.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-6">
-                                               <img src="img/screenshot2.png" class="w-100" alt="">
+                                               <img src="/img/screenshot2.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-4">
-                                               <img src="img/screenshot3.png" class="w-100" alt="">
+                                               <img src="/img/screenshot3.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-4">
-                                               <img src="img/screenshot4.png" class="w-100" alt="">
+                                               <img src="/img/screenshot4.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-4">
-                                               <img src="img/screenshot5.png" class="w-100" alt="">
+                                               <img src="/img/screenshot5.png" class="w-100" alt="">
                                            </div>
                                        </div>
                                    </div>
                                </div>
                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                                   <img src="img/prev.svg" class="img-fluid" alt="">
+                                   <img src="/img/prev.svg" class="img-fluid" alt="">
                                </button>
                                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                                   <img src="img/next.svg" class="img-fluid" alt="">
+                                   <img src="/img/next.svg" class="img-fluid" alt="">
                                </button>
                            </div>
                            <div class="text-center mt_60">
@@ -269,7 +269,7 @@ import { t } from '$lib/translations';
            <form action="#" class="email_form">
                <input type="email" placeholder="Email">
                <button type="submit">
-                   <img src="img/arrow.png" class="img-fluid" alt="">
+                   <img src="/img/arrow.png" class="img-fluid" alt="">
                </button>
            </form>
        </div>

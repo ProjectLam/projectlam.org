@@ -9,23 +9,23 @@ import { t,locales,locale } from '$lib/translations';
     <!-- start header -->
     <header class="navbar navbar-expand-lg">
       <div class="container">
-          <a class="navbar-brand" href="index.html">
-              <img src="img/logo.svg" alt="">
+          <a class="navbar-brand" href="/">
+              <img src="/img/logo.svg" alt="">
               Lam Project
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-expanded="false">
-              <img src="img/bars.svg" class="img-fluid" alt="">
+              <img src="/img/bars.svg" class="img-fluid" alt="">
           </button>
           <div class="collapse navbar-collapse" id="nav">
               <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                      <a class="nav-link" href="index.html">Home</a>
+                      <a class="nav-link" href="/">Home</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="#">Tutorials</a>
                   </li>                    
                   <li class="nav-item">
-                      <a class="nav-link" href="blog.html">Blog</a>
+                      <a class="nav-link" href="/blog">Blog</a>
                   </li>                    
                   <li class="nav-item">
                       <a class="nav-link" href="#">Community</a>

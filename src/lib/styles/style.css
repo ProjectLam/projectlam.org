@@ -602,7 +602,8 @@ header.navbar {
 
 /*update area*/
 .update_area{
-	padding-top: 16rem;
+	padding-top:16rem;
+	padding-bottom:16rem;
 }
 .update_area .title{
 	font-size: 5.3rem;

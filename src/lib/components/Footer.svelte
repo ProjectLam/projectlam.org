@@ -18,9 +18,9 @@
 			<div class="col-md-6 mt_50">
 				<h2 class="title yellow">Learn and contribute with us</h2>
 				<ul class="social_link">
-					<li><a href="#">Github</a></li>
-					<li><a href="#">Twitter</a></li>
-					<li><a href="#">Facebook</a></li>
+					<li><a href="https://github.com/ProjectLam" target="_blank">Github</a></li>
+					<li><a href="https://twitter.com/ProjectLamHQ" target="_blank">Twitter</a></li>
+					<li><a href="https://youtube.com/@projectlamhq"target="_blank">Youtube</a></li>
 				</ul>
 			</div>
 			<div class="col-md-3 col-sm-6 mt_50">
@@ -57,7 +57,7 @@
 				</ul>
 			</div>
 			<div class="col-md-7 order-md-1 mt_20">
-				<p>© Copyright 2022 Lam Project All Right</p>
+				<p>© Copyright 2022 Lam Project All Right Reserved</p>
 			</div>
 		</div>
 	</div>

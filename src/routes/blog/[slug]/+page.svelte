@@ -62,7 +62,7 @@
   </div>
 
   <!-- update area -->
-  <div class="update_area animation">
+  <!-- <div class="update_area animation">
       <div class="container text-center">
           <h2 class="title">Stay Updated</h2>
           <p>Keep up with our new updates and annoucement</p>
@@ -73,7 +73,7 @@
               </button>
           </form>
       </div>
-  </div>
+  </div> -->
 </article>
 
 {#if data.categories && data.categories.length}

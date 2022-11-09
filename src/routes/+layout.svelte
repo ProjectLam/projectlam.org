@@ -1,6 +1,7 @@
 <script>
     import Header from '$lib/components/Header.svelte'
     import Footer from '$lib/components/Footer.svelte'
+    import Mailing from '$lib/components/Mailing.svelte'
 
     import '$lib/styles/style.scss'
 
@@ -28,6 +29,7 @@
       </main>
     {/key}
 
+    <Mailing />
     <Footer />
 
 

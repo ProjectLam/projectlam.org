@@ -110,17 +110,5 @@
           </div>
       </div>
 
-      <!-- update area -->
-      <div class="update_area">
-          <div class="container text-center">
-              <h2 class="title">Stay Updated</h2>
-              <p>Keep up with our new updates and annoucement</p>
-              <form action="#" class="email_form">
-                  <input type="email" placeholder="Email">
-                  <button type="submit">
-                      <img src="/img/arrow.png" class="img-fluid" alt="">
-                  </button>
-              </form>
-          </div>
-      </div>
+  
   </main>

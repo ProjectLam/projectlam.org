@@ -11,7 +11,7 @@ import { t,locales,locale } from '$lib/translations';
       <div class="container">
           <a class="navbar-brand" href="/">
               <img src="/img/logo.svg" alt="">
-              Lam Project
+              Project Lam
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-expanded="false">
               <img src="/img/bars.svg" class="img-fluid" alt="">

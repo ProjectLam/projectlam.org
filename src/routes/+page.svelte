@@ -13,7 +13,7 @@ import { t } from '$lib/translations';
                <div class="col-xl-11">
                    <h1>OPEN-SOURCE SOFTWARE FOR LEARNING THE WORLD'S INSTRUMENTS</h1>
 
-                   <p>Lam Project is working on building software that helps people learn heritage instruments from all around the world. We have an open source program that lets people</p>
+                   <p>Project Lam is working on building software that helps people learn heritage instruments from all around the world. We have an open source program that lets people</p>
                </div>
            </div>
        </div>
@@ -79,8 +79,8 @@ import { t } from '$lib/translations';
                <img src="/img/line.svg" class="line line2" alt="">
                <div class="community_content">
                    <h4>COMMUNITY AROUND THE WORLD</h4>
-                   <p class="mt_40">We have a community of people learning various heritage music from around the world. See what other players are learning, what are the most popular songs. We will soon have tools to convert music from one instrument to another</p>
-                   <a href="#" class="button mt_45 pink_btn">GET INVOLVED</a>
+                   <p class="mt_40">We have a community of people .learn_areaing various heritage music from around the world. See what other players are learning, what are the most popular songs. We will soon have tools to convert music from one instrument to another</p>
+                   <a href="#mailing" class="button mt_45 pink_btn">GET INVOLVED</a>
                </div>
                <img src="/img/line.svg" class="line" alt="">
            </div>
@@ -198,8 +198,8 @@ import { t } from '$lib/translations';
                                    <img src="/img/next.svg" class="img-fluid" alt="">
                                </button>
                            </div>
-                           <div class="text-center mt_60">
-                               <a href="#" class="button">LEARN NOW</a>
+                           <div class="learn-now-btn text-center mt_60">
+                               <a href="#mailing" class="button">LEARN NOW</a>
                            </div>
                        </div>
                        <div class="tab-pane fade show active" id="screen">
@@ -251,7 +251,7 @@ import { t } from '$lib/translations';
                                    <img src="/img/next.svg" class="img-fluid" alt="">
                                </button>
                            </div>
-                           <div class="text-center mt_60">
+                           <div class="learn-now-btn text-center mt_60">
                                <a href="#mailing" class="button">LEARN NOW</a>
                            </div>
                        </div>
@@ -260,19 +260,5 @@ import { t } from '$lib/translations';
            </div>
        </div>
    </div>
-
-   <!-- update area -->
-    <!-- <div class="update_area" data-aos="fade-up">
-        <div class="container text-center">
-            <h2 class="title">Stay Updated111</h2>
-            <p>Keep up with our new updates and annoucement</p>
-            <form method="POST" action="https://2d72ee66.sibforms.com/serve/MUIEAJ0NXsKh8YXUMXKLUmWWSY3WTaZlwpN8DZgpykIMLKGPIuFpULi7_gA02X603gV2b0-gi_VUwYgqCGA9AM1QDpvscvtoUYsXspwwJByhr2w5A0M9PT94npKIZkHU-WfubD9IK3kYOLq1dfEJkFmsNsoiVQ9G8BY-OMnz2irb8A3ygJI-Se4agFbRtM1XSmJNfQOKx5ZrbnCl" class="email_form">
-                    <input class="input" type="email" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="Email" data-required="true" required />                <button type="submit">
-                    <img src="/img/arrow.png" class="img-fluid" alt="">
-                </button>
-            </form>
-        </div>
-    </div> -->
-   
 </main>
 

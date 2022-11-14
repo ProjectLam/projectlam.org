@@ -392,6 +392,7 @@ header.navbar {
 	font-size: 2.8rem;
 	font-weight: 500;
 	max-width: 61.5rem;
+	padding-bottom: 3rem; 
 }
 .title{
 	font-family: 'Pattanakarn';
@@ -399,6 +400,7 @@ header.navbar {
 	color: var(--pink);
 	font-size: 6.6rem;
 	line-height: 1.1;
+	padding-bottom: 3rem; 
 }
 .pink{
 	color: var(--pink);
@@ -430,7 +432,7 @@ header.navbar {
 .ab2 {
   margin-left: -10rem;
   width: calc(41.66666667% + 10rem);
-  margin-top: 14rem;
+  margin-top: 8rem;
 }
 .bg_img{
 	z-index: 1;
@@ -442,6 +444,7 @@ header.navbar {
 }
 .integrate_area{
 	padding: 10rem 0;
+	margin-bottom: 10rem;
 }
 
 /*community area*/
@@ -466,16 +469,19 @@ header.navbar {
 	padding: 1rem 8rem;
 }
 .community_content h4{
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Jura';
 	font-size: 2.4rem;
 	font-weight: 600;
 	color: var(--pink);
 	text-transform: uppercase;
+	-webkit-text-stroke: 2px; 
+	padding-bottom: 2rem; 
 }
 .community_content p{
 	font-size: 4rem;
 	font-weight: 600;
 	color: #000;
+	padding-bottom: 3rem; 
 }
 .button.pink_btn {
 	width: auto;
@@ -500,6 +506,7 @@ header.navbar {
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
 	transition: 0.3s;
+	margin-top: 3rem;
 }
 .blog_box:hover{
 	background-color: transparent;
@@ -598,6 +605,9 @@ header.navbar {
 }
 .get_started .nav-pills li .nav-link.active{
 	border-bottom-color: var(--yellow);
+}
+.get_started .learn-now-btn{ 
+	margin-top: 7rem; 
 }
 
 /*update area*/
@@ -953,6 +963,9 @@ footer h4{
 }
 footer .navbar-brand{
 	color: var(--yellow);
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+
 }
 .footer_bottom p,
 .footer_bottom a{

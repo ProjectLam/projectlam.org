@@ -51,9 +51,9 @@
 		<div class="row footer_bottom pt_15 align-items-center">
 			<div class="col-md-5 order-md-2 text-md-end mt_20">
 				<ul>
-					<li><a href="#">Privacy Policy</a></li>
-					<li><a href="#">Cookies</a></li>
-					<li><a href="#">Terms</a></li>
+					<li><a href="/privacy-policy">Privacy Policy</a></li>
+					<li><a href="/cookies">Cookies</a></li>
+					<li><a href="/terms">Terms</a></li>
 				</ul>
 			</div>
 			<div class="col-md-7 order-md-1 mt_20">

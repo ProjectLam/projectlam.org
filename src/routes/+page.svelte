@@ -13,7 +13,7 @@ import { t } from '$lib/translations';
                <div class="col-xl-11">
                    <h1>OPEN-SOURCE SOFTWARE FOR LEARNING THE WORLD'S INSTRUMENTS</h1>
 
-                   <p>Project Lam is working on building software that helps people learn heritage instruments from all around the world. We have an open source program that lets people</p>
+                   <p>Project Lam is working on building software that helps people learn heritage instruments from all around the world.</p>
                </div>
            </div>
        </div>
@@ -150,14 +150,15 @@ import { t } from '$lib/translations';
                    </ul>
                    <div class="tab-content">
                        <div class="tab-pane fade" id="video">
-                           <div id="carousel2" class="carousel slide" data-bs-ride="false">
-                               <div class="carousel-inner">
-                                   <div class="carousel-item active">
-                                       <div class="row g-4">
-                                           <div class="col-md-6">
-                                               <img src="/img/screenshot1.png" class="w-100" alt="">
+                        <div id="carousel2" class="carousel slide" data-bs-ride="false">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                       <div class="embed-responsive-16by9 col-md-6">
+                                           <div class="center">
+                                                <video width="1180" height="746"  controls autoplay loop > 
+                                                <source src="/img/video1.mp4" type="video/mp4"></video>
                                            </div>                                        
-                                           <div class="col-md-6">
+                                           <!-- <div class="col-md-6">
                                                <img src="/img/screenshot2.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-4">
@@ -167,8 +168,8 @@ import { t } from '$lib/translations';
                                                <img src="/img/screenshot4.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-4">
-                                               <img src="/img/screenshot5.png" class="w-100" alt="">
-                                           </div>
+                                               <img src="/img/screenshot5.png" class="w-100" alt="">6
+                                           </div> -->
                                        </div>
                                    </div>
                                    <div class="carousel-item">

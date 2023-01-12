@@ -96,9 +96,9 @@ import { t } from '$lib/translations';
                    <div class="row g-5" data-aos="fade-up">
                        <div class="col-md-6">
                            <div class="blog_box">
-                               <div class="date">22.10.2022</div>
-                               <a href="#"><h3>HOW TO START PLAYING PHIN</h3></a>
-                               <p>Use these tips and tricks to make the most of your first weeks with the instrument.</p>
+                               <div class="date">10.01.2023</div>
+                               <a href="/blog/1"><h3>SUCCESSFUL TIPS TO LEARN GUITAR FOR BUSY PEOPLE</h3></a>
+                               <p>Don't fret, though; these simple tips will help you enjoy learning while still managing your time.</p>
                            </div>
                        </div>                            
                        <div class="col-md-6">
@@ -123,7 +123,7 @@ import { t } from '$lib/translations';
                            </div>
                        </div>
                        <div class="col-12 text-end">
-                           <a href="#" class="see_link">
+                           <a href="/blog" class="see_link">
                                See more
                                <img src="/img/arrow.png" alt="">
                            </a>
@@ -155,8 +155,8 @@ import { t } from '$lib/translations';
                                 <div class="carousel-item active">
                                        <div class="embed-responsive-16by9 col-md-6">
                                            <div class="center">
-                                                <video width="1180" height="746"  controls autoplay loop > 
-                                                <source src="/img/video1.mp4" type="video/mp4"></video>
+                                                <video width="1196" height="600" controls autoplay loop> 
+                                                <source src="/img/video-keyboard.mp4" type="video/mp4"></video>
                                            </div>                                        
                                            <!-- <div class="col-md-6">
                                                <img src="/img/screenshot2.png" class="w-100" alt="">
@@ -168,7 +168,7 @@ import { t } from '$lib/translations';
                                                <img src="/img/screenshot4.png" class="w-100" alt="">
                                            </div>                                        
                                            <div class="col-md-4">
-                                               <img src="/img/screenshot5.png" class="w-100" alt="">6
+                                               <img src="/img/screenshot5.png" class="w-100" alt="">
                                            </div> -->
                                        </div>
                                    </div>

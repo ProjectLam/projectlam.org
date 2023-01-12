@@ -850,10 +850,10 @@ header.navbar {
 	margin-top: 4rem;
 }
 .blog_details p a{
-	color: var(--yellow)
+	color: var(--yellow);
 }
 .blog_details p a:hover{
-	color: var(--pink)
+	color: var(--pink);
 }
 .blog_details h2{
 	font-size: 4rem;

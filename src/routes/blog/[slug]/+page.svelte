@@ -44,7 +44,7 @@
   </div>
 </article>
 
-<!-- {#if data.categories && data.categories.length}
+{#if data.categories && data.categories.length}
 <aside>
   <h2>Posted in:</h2>
   <ul>
@@ -57,4 +57,4 @@
     {/each}
   </ul>
 </aside>
-{/if} -->
+{/if}

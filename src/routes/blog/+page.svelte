@@ -34,8 +34,8 @@
                   </div>
                   <div class="card_body">
                       <div class="date">22.10.2022</div>
-                      <a href="/blog/1"><h2>HOW TO START PLAYING PHIN</h2></a>
-                      <p>Use these tips and tricks to make the most of your first weeks with the instrument.</p>
+                      <a href="/blog/1"><h2>Successful Tips to Learn Guitar for Busy People</h2></a>
+                      <p>Don't fret, though; these simple tips will help you enjoy learning while still managing your time.</p>
                       <a href="/blog/1" class="more_link">READ MORE</a>
                   </div>
               </div>                

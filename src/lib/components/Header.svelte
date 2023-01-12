@@ -17,20 +17,20 @@ import { t,locales,locale } from '$lib/translations';
               <img src="/img/bars.svg" class="img-fluid" alt="">
           </button>
           <div class="collapse navbar-collapse" id="nav">
-              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav mb-2 mb-lg-0" style="margin-left: auto;">
                   <li class="nav-item">
                       <a class="nav-link" href="/">Home</a>
                   </li>
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                       <a class="nav-link" href="#">Tutorials</a>
-                  </li>                    
+                  </li>                     -->
                   <li class="nav-item">
                       <a class="nav-link" href="/blog">Blog</a>
                   </li>                    
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                       <a class="nav-link" href="#">Community</a>
-                  </li>
-                  <li class="nav-item dropdown">
+                  </li> -->
+                  <!-- <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                           More
                       </a>
@@ -39,7 +39,7 @@ import { t,locales,locale } from '$lib/translations';
                           <li><a class="dropdown-item" href="#">Another action</a></li>
                           <li><a class="dropdown-item" href="#">Something</a></li>
                       </ul>
-                  </li>
+                  </li> -->
               </ul>
               <div class="right_content d-flex align-items-center">
                   <div class="dropdown">

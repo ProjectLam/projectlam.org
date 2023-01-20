@@ -1,7 +1,6 @@
 <script>
     export let data;
   </script>
-v
 <svelte:head>
     <title>My blog - {data.title}</title>
     <meta property="og:title" content={data.title} />
@@ -13,9 +12,7 @@ v
     <meta property="og:type"    content="website" />
     <meta property="og:image"   content="https://projectlam.org/img/blog{data.image}.png" />
   </svelte:head>
-
   <!-- <p> #{JSON.stringify(data)} </p>  -->
-
 <article class="overflow-hidden">
   <!-- blog area -->
   <div class="blog_details">

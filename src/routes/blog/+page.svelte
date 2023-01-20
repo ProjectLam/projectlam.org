@@ -1,7 +1,6 @@
 <script>
     export let data
     import { t } from '$lib/translations';
-    
 </script>
     <main class="overflow-hidden">
       <!-- blog area -->
@@ -24,8 +23,7 @@
                         </div>
                     </div>
                 {/each}
-            </ul>
-           
+            </ul>   
               <!-- pagination -->
               <!-- <ul class="pagination">
                   <li><a href="#" class="pg_icon"><img src="/img/prev.svg" class="img-fluid" alt=""></a></li>

@@ -1,8 +1,7 @@
 <script>	
 export let data
 import { t } from '$lib/translations';
-
-  </script>
+</script>
 
 <main class="overflow-hidden">
    <!-- hero section -->
@@ -52,7 +51,6 @@ import { t } from '$lib/translations';
                </div>
            </div>
        </div> 
-       
         <!-- integrate area -->
        <div class="integrate_area" data-aos="fade-up">
            <div class="container position-relative">
@@ -68,7 +66,6 @@ import { t } from '$lib/translations';
            </div>
        </div>
    </div>
-
     <!-- community area -->
     <div class="community_area pt_80" data-aos="fade-up">
         <div class="container">
@@ -83,7 +80,6 @@ import { t } from '$lib/translations';
             </div>
         </div>
     </div>
-
    <!-- blog area -->
     <div class="blog_area">
         <div class="container">
@@ -111,7 +107,6 @@ import { t } from '$lib/translations';
             </div>
         </div>
     </div>
-   
    <!-- get started area -->
    <div class="get_started" data-aos="fade-up">
        <div class="container">

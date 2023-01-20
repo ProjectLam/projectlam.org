@@ -1,4 +1,5 @@
 <script>	
+export let data
 import { t } from '$lib/translations';
 
   </script>
@@ -12,7 +13,6 @@ import { t } from '$lib/translations';
            <div class="row justify-content-center">
                <div class="col-xl-11">
                    <h1>OPEN-SOURCE SOFTWARE FOR LEARNING THE WORLD'S INSTRUMENTS</h1>
-
                    <p>Project Lam is working on building software that helps people learn heritage instruments from all around the world.</p>
                </div>
            </div>
@@ -86,54 +86,37 @@ import { t } from '$lib/translations';
            </div>
        </div>
    </div>
-
+    
+  
    <!-- blog area -->
-   <div class="blog_area">
-       <div class="container">
-           <h2 class="title pb_100">Blog & News</h2>
-           <div class="row justify-content-center">
-               <div class="col-lg-11">
-                   <div class="row g-5" data-aos="fade-up">
-                       <div class="col-md-6">
-                           <div class="blog_box">
-                               <div class="date">10.01.2023</div>
-                               <a href="/blog/1"><h3>SUCCESSFUL TIPS TO LEARN GUITAR FOR BUSY PEOPLE</h3></a>
-                               <p>Don't fret, though; these simple tips will help you enjoy learning while still managing your time.</p>
-                           </div>
-                       </div>                            
-                       <div class="col-md-6">
-                           <div class="blog_box">
-                               <div class="date">10.10.2022</div>
-                               <a href="#"><h3>WHAT’S THAT SOUND: FUZZ</h3></a>
-                               <p>Imagine playing in an otherwise ordinary recording session when a piece of studio equipment fails</p>
-                           </div>
-                       </div>                            
-                       <div class="col-md-6">
-                           <div class="blog_box">
-                               <div class="date">22.10.2022</div>
-                               <a href="#"><h3>THREE EXTREME FLUTE TECHNIQUES YOU NEED TO KNOW</h3></a>
-                               <p>Use these tips and tricks to make the most of your first weeks with the instrument.</p>
-                           </div>
-                       </div>                            
-                       <div class="col-md-6">
-                           <div class="blog_box">
-                               <div class="date">22.10.2022</div>
-                               <a href="#"><h3>WHAT'S THAT SOUND: CHORUS</h3></a>
-                               <p>Imagine playing in an otherwise ordinary recording session when a piece of studio equipment fails</p>
-                           </div>
-                       </div>
-                       <div class="col-12 text-end">
-                           <a href="/blog" class="see_link">
-                               See more
-                               <img src="/img/arrow.png" alt="">
-                           </a>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </div>
-   </div>
-
+    
+    <div class="blog_area">
+        <div class="container">
+            <h2 class="title pb_100">Blog & News</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-11">
+                    <div class="row g-5" data-aos="fade-up">
+                            {#each data.posts as post}
+                                <div class="col-md-6">
+                                    <div class="blog_box">
+                                        <div class="date">{post.meta.date} </div>
+                                        <a href="{post.path}"><h3>{post.meta.title}</h3></a>
+                                        <p>{post.meta.desc}</p>
+                                    </div>
+                                </div> 
+                            {/each}
+                        <!-- <div class="col-12 text-end">
+                            <a href="/blog" class="see_link">
+                                See more
+                                <img src="/img/arrow.png" alt="">
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
    <!-- get started area -->
    <div class="get_started" data-aos="fade-up">
        <div class="container">

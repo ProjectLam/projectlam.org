@@ -3,6 +3,6 @@ export const load = async ({ fetch }) => {
     const posts = await response.json()
   
     return {
-      posts
+      posts,
     }
   }

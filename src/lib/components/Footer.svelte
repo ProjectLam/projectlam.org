@@ -27,12 +27,14 @@
 				<h4>Get Started</h4>
 				<ul class="link_menu">
 					<li><a href="/blog">Blog</a></li>
-					<li><a href="#">Game</a></li>
+					<li><a href="/">Home</a></li>
+					<li><a href="#mailing">Get Involved</a></li>
+					<!-- <li><a href="#">Game</a></li>
 					<li><a href="#">Careers</a></li>
-					<li><a href="#">Help</a></li>
+					<li><a href="#">Help</a></li> -->
 				</ul>
 			</div>
-			<div class="col-md-3 col-sm-6 mt_50">
+			<!-- <div class="col-md-3 col-sm-6 mt_50">
 				<h4>Community</h4>
 				<ul class="link_menu">
 					<li><a href="#">Community Overview</a></li>
@@ -40,7 +42,7 @@
 					<li><a href="#">Showcase</a></li>
 					<li><a href="#">Events</a></li>
 				</ul>
-			</div>
+			</div> -->
 			<div class="col-12 mt_50">
 				<a class="navbar-brand" href="/">
 					<img src="/img/logo.svg" alt="" />

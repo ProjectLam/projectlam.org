@@ -8,6 +8,6 @@ export const load = async ({ fetch, params }) => {
 
   return {
     category,
-    posts
+    posts,
   }
 }

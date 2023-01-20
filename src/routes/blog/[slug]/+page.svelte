@@ -5,31 +5,16 @@ v
 <svelte:head>
     <title>My blog - {data.title}</title>
     <meta property="og:title" content={data.title} />
-
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:site" content="@ProjectLamHQ"/>
     <meta name="twitter:title" content="{data.title}"/>
     <meta name="twitter:image" content="{data.image}"/>
-
     <meta property="og:url"     content="https://projectlam.org/blog/{data.blog}" />
     <meta property="og:type"    content="website" />
     <meta property="og:image"   content="https://projectlam.org/img/blog{data.image}.png" />
-
-
   </svelte:head>
-   <!--
-  <article>
-    <h1>{ data.title }</h1>
-    <p>Published: {data.date}</p>
-    <svelte:component this={data.content} />
-  </article>
 
- 
-  <p> #{JSON.stringify(data)} </p>
- -->
-
-
-
+  <!-- <p> #{JSON.stringify(data)} </p>  -->
 
 <article class="overflow-hidden">
   <!-- blog area -->
@@ -39,17 +24,11 @@ v
               <div class="col-xl-11">
                   <div class="img_box">
                       <div class="tag">Tips</div>
-                      <!-- <img src="/img/details.jpg" class="img-fluid" alt=""> -->
                       <img src= "{data.image}" class="img-fluid" alt="">
                   </div>
                   <div class="blog_pane">
                       <div class="date">{data.date}</div>
                       <h3>{data.title}</h3>
-                      <!-- <div class="social_icons">
-                        <a href="#"><img src="/img/facebook.svg" class="img-fluid" alt=""></a>
-                        <a href="#"><img src="/img/twitter.svg" class="img-fluid" alt=""></a> 
-                      </div> -->
-                      
                       <div class="social_icons"> 
                       <a href="https://www.facebook.com/sharer/sharer.php?u=https://projectlam.org/blog/{data.blog}">
                         <img src="/img/facebook.svg" class="img-fluid" alt="Share on Facebook">

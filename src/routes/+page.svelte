@@ -3,9 +3,7 @@ export let data
 import { t } from '$lib/translations';
 
   </script>
-<!--
-<h1>{$t('home.title')}</h1>
--->
+
 <main class="overflow-hidden">
    <!-- hero section -->
    <div class="hero_area">
@@ -34,7 +32,6 @@ import { t } from '$lib/translations';
                    <div class="col-lg-6 col-md-7 mt_40">
                        <h2 class="title">Learn how to play instruments</h2>
                        <p class="lg_text mt_50">We have a group of built in instruments you can learn how to play various <span class="pink">heritage instruments.</span> Incremental progress on how to play. You can connect electric instruments into the computer, or use a microphone to record them.</p>
-
                        <h3 class="title_md mt_45">50,000</h3>
                        <p class="lg_text mt_10">People will learn this year</p>
                    </div>
@@ -54,9 +51,9 @@ import { t } from '$lib/translations';
                    </div> 
                </div>
            </div>
-       </div>        
-
-       <!-- integrate area -->
+       </div> 
+       
+        <!-- integrate area -->
        <div class="integrate_area" data-aos="fade-up">
            <div class="container position-relative">
                <div class="row gx-5 align-items-center">
@@ -72,24 +69,22 @@ import { t } from '$lib/translations';
        </div>
    </div>
 
-   <!-- community area -->
-   <div class="community_area pt_80" data-aos="fade-up">
-       <div class="container">
-           <div class="community_box">
-               <img src="/img/line.svg" class="line line2" alt="">
-               <div class="community_content">
-                   <h4>COMMUNITY AROUND THE WORLD</h4>
-                   <p class="mt_40">We have a community of people .learn_areaing various heritage music from around the world. See what other players are learning, what are the most popular songs. We will soon have tools to convert music from one instrument to another</p>
-                   <a href="#mailing" class="button mt_45 pink_btn">GET INVOLVED</a>
-               </div>
-               <img src="/img/line.svg" class="line" alt="">
-           </div>
-       </div>
-   </div>
-    
-  
+    <!-- community area -->
+    <div class="community_area pt_80" data-aos="fade-up">
+        <div class="container">
+            <div class="community_box">
+                <img src="/img/line.svg" class="line line2" alt="">
+                <div class="community_content">
+                    <h4>COMMUNITY AROUND THE WORLD</h4>
+                    <p class="mt_40">We have a community of people .learn_areaing various heritage music from around the world. See what other players are learning, what are the most popular songs. We will soon have tools to convert music from one instrument to another</p>
+                    <a href="#mailing" class="button mt_45 pink_btn">GET INVOLVED</a>
+                </div>
+                <img src="/img/line.svg" class="line" alt="">
+            </div>
+        </div>
+    </div>
+
    <!-- blog area -->
-    
     <div class="blog_area">
         <div class="container">
             <h2 class="title pb_100">Blog & News</h2>
@@ -141,18 +136,6 @@ import { t } from '$lib/translations';
                                                 <video width="1196" height="600" controls autoplay loop> 
                                                 <source src="/img/video-keyboard.mp4" type="video/mp4"></video>
                                            </div>                                        
-                                           <!-- <div class="col-md-6">
-                                               <img src="/img/screenshot2.png" class="w-100" alt="">
-                                           </div>                                        
-                                           <div class="col-md-4">
-                                               <img src="/img/screenshot3.png" class="w-100" alt="">
-                                           </div>                                        
-                                           <div class="col-md-4">
-                                               <img src="/img/screenshot4.png" class="w-100" alt="">
-                                           </div>                                        
-                                           <div class="col-md-4">
-                                               <img src="/img/screenshot5.png" class="w-100" alt="">
-                                           </div> -->
                                        </div>
                                    </div>
                                    <div class="carousel-item">

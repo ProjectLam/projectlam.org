@@ -7,10 +7,10 @@
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:site" content="@ProjectLamHQ"/>
     <meta name="twitter:title" content="{data.title}"/>
-    <meta name="twitter:image" content="{data.image}"/>
+    <meta name="twitter:image" content="https://projectlam.org{data.image}"/>
     <meta property="og:url"     content="https://projectlam.org/blog/{data.blog}" />
     <meta property="og:type"    content="website" />
-    <meta property="og:image"   content="https://projectlam.org/img/blog{data.image}.png" />
+    <meta property="og:image"   content="https://projectlam.org{data.image}" />
   </svelte:head>
   <!-- <p> #{JSON.stringify(data)} </p>  -->
 <article class="overflow-hidden">

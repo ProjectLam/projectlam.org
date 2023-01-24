@@ -1,22 +1,16 @@
 <main class="overflow-hidden">
-   
     <div class="blog_details">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-11">
-
                     <div class="blog_pane">
                         <h3>Terms</h3>  
                     </div>
-                    
-
                     <h2>1. Terms</h2>
                     <p>By accessing this Website, accessible from <u><a href="/">https://projectlam.org</a></u> , you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.</p>
 
-
                     <h2>2. Use License</h2>
                     <p>Permission is granted to temporarily download one copy of the materials on Project Lam 's Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
-                   
                    <ul>
                         <p> - modify or copy the materials;</p>
                         <p> - use the materials for any commercial purpose or for any public display;</p>
